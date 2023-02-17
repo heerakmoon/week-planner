@@ -41,19 +41,20 @@
       <button class="add-entry-button">Add Entry</button>
     </div>
   </div>
-  <div class="black-bg">
+  <div id="modal" class="black-bg">
     <div class="modal-box">
       <h1 class="text-center">Add Entry</h1>
-      <select name="day-of-week" id="day">
-        <option value="day">Day of Week</option>
-        <option value="sunday">Sunday</option>
-        <option value="monday">Monday</option>
-        <option value="tuesday">Tuesday</option>
-        <option value="wednesday">Wednesday</option>
-        <option value="thursday">Thursday</option>
-        <option value="friday">Friday</option>
-        <option value="saturday">Saturday</option>
-      </select>
+      <div class="row">
+        <select name="day-of-week" id="day">
+          <option value="day">Day of Week</option>
+        </select>
+        <select name="time" id="time">
+          <option value="time">Time</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+      </div>
     </div>
   </div>
   <script src="main.js"></script>
