@@ -1,3 +1,11 @@
+h1 {
+  font-family: Ubuntu, sans-serif;
+}
+
+button {
+  font-family: Ubuntu, sans-serif;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
