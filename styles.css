@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
